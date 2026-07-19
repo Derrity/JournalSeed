@@ -1,0 +1,21 @@
+{
+  "browser": {
+    "browserName": "chromium",
+    "isolated": true,
+    "contextOptions": {
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      }
+    }
+  },
+  "outputDir": "output/playwright",
+  "outputMode": "stdout",
+  "console": {
+    "level": "warning"
+  },
+  "timeouts": {
+    "action": 10000,
+    "navigation": 30000
+  }
+}
